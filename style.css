@@ -1,0 +1,22 @@
+h1{
+    color: red;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    transition: color 0.5s ease, font-size 0.5s ease;
+}
+
+h1:hover{
+    color: blue;
+    font-size: 36px;
+}
+
+/* CSS Media Queries */
+h2{
+    color: blue;
+    /* For screens smaller than 600px */
+    @media screen and (max-width: 600px){
+        color: green;
+        font-size: 20px;
+    }
+}
